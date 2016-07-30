@@ -1,0 +1,1 @@
+{"version":3,"sources":["screen.css"],"names":[],"mappings":"AAAA,uBAAuB","file":"screen.css","sourcesContent":["/* custom properties */\n\n:root {\n    --fontSize: 1rem;\n    --mainColor: #blue;\n    --highlightColor: hwb(190, 35%, 20%);\n}\n"],"sourceRoot":"/source/"}
