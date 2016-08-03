@@ -11,7 +11,7 @@
 
     {{!-- Mobile Meta --}}
     <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 
     {{!-- Brand icon --}}
     <link rel="shortcut icon" href="{{asset "./favicon.ico"}}">
@@ -44,6 +44,8 @@
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
     <script type="text/javascript" src="bower_components/jQuery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/tether/dist/js/tether.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
     {{!-- The main JavaScript file for Casper --}}
