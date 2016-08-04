@@ -17,9 +17,9 @@
     <link rel="shortcut icon" href="{{asset "./favicon.ico"}}">
 
     {{!-- Styles'n'Scripts --}}
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset "bower_components/bootstrap/dist/css/bootstrap.min.css" }}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-    <link rel="stylesheet" type="text/css" href="bower_components/animate.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset "bower_components/animate.css" }}" />
 
     {{!-- Ghost outputs important style and meta data with this tag --}}
     {{ghost_head}}
@@ -43,12 +43,13 @@
     </div>
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
-    <script type="text/javascript" src="bower_components/jQuery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/tether/dist/js/tether.min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
     {{!-- The main JavaScript file for Casper --}}
+    <script type="text/javascript" src="{{asset "bower_components/jQuery/dist/jquery.min.js" }}"></script>
+    <script type="text/javascript" src="{{asset "bower_components/tether/dist/js/tether.min.js" }}"></script>
+    <script type="text/javascript" src="{{asset "bower_components/bootstrap/dist/js/bootstrap.min.js" }}"></script>
     <script type="text/javascript" src="{{asset "js/all.js"}}"></script>
 
 </body>
