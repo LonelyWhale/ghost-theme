@@ -5,3 +5,10 @@
     --mainColor: #blue;
     --highlightColor: hwb(190, 35%, 20%);
 }
+
+.nav {
+    overflow: hidden;
+    & .nav-item {
+        line-height: 40px;
+    }
+}

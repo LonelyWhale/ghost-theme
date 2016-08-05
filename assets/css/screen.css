@@ -1,3 +1,11 @@
 /* custom properties */
 
+.nav {
+    overflow: hidden
+}
+
+.nav .nav-item {
+    line-height: 40px
+}
+
 /*# sourceMappingURL=screen.css.map */
